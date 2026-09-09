@@ -1,0 +1,20 @@
+{
+  "best_method": "Average Probabilities",
+  "accuracy": 0.4454318181818182,
+  "rf_accuracy": 0.4071590909090909,
+  "cnn_accuracy": 0.4418409090909091,
+  "improvement": 0.003590909090909089,
+  "class_names": [
+    "8PSK",
+    "AM-DSB",
+    "AM-SSB",
+    "BPSK",
+    "CPFSK",
+    "GFSK",
+    "PAM4",
+    "QAM16",
+    "QAM64",
+    "QPSK",
+    "WBFM"
+  ]
+}

@@ -151,6 +151,44 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# Data files
+data/*.npy
+data/*.csv
+data/spectrograms/
+*.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# TensorFlow
+models/*.keras
+models/*.pkl
+
+# Streamlit
+.streamlit/
+
+# Large files
+*.zip
+*.tar.gz
+*.7z
+*.iso
+
+
 # Pyre type checker
 .pyre/
 

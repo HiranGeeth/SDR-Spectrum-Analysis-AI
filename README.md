@@ -82,30 +82,30 @@ An **end-to-end AI-powered RF signal classification system** that uses a **hybri
 
 ### Installation
 
-# Clone repository
-git clone https://github.com/yourusername/SDR-Spectrum-Analysis-AI.git
+Clone repository
+git clone https://github.com/HiranGeeth/SDR-Spectrum-Analysis-AI.git
 cd SDR-Spectrum-Analysis-AI
 
-# Create virtual environment
+Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Download Dataset
+Download Dataset
 RadioML 2016.10A
 
-# Train Random Forest
+Train Random Forest
 python src/train_rf.py
 
-# Train CNN
+Train CNN
 python src/train_cnn.py
 
-# Run Ensemble
+Run Ensemble
 python src/ensemble_predict.py
 
-# Connect RTL-SDR and launch dashboard
+Connect RTL-SDR and launch dashboard
 streamlit run src/live_scanner.py
 
 ## Contributing
